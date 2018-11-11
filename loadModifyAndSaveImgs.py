@@ -26,6 +26,7 @@ imgray = cv2.cvtColor(small,cv2.COLOR_BGR2GRAY)
 cv2.imwrite('grayMe.png',imgray)
 
 #show me the color me and then the grey me
+#f you specify flag to be cv2.WINDOW_NORMAL, you can resize window
 cv2.namedWindow('color image',cv2.WINDOW_AUTOSIZE)
 cv2.namedWindow('grey image',cv2.WINDOW_AUTOSIZE)
 
